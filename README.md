@@ -1,31 +1,44 @@
-# Sequence Analysis Tool
+# FASTA Parser
 
-This repository contains a Python script for analyzing protein sequences from a FASTA file. It performs various sequence statistics and generates a tab-separated values (TSV) output file with the sequence information.
+This script is designed to perform sequence analysis on FASTA files. It calculates sequence statistics, generates a TSV output file, and provides various functionalities for analyzing protein sequences.
 
-## Usage
+## Features
 
-1. Install Python (version 3.6 or above) if not already installed.
-2. Clone or download this repository to your local machine.
-3. Place your input FASTA file in the repository directory.
-4. Open a terminal or command prompt and navigate to the repository directory.
-5. Run the script using the following command:
-
-   ```shell
-   python sequence_analysis.py
-
-6. The script will generate an output TSV file named output.tsv with the analyzed sequence information.
-7. You can modify the script parameters and alignment settings as needed for your specific analysis by editing the sequence_analysis.py file.
+- Parsing FASTA files to extract sequence data
+- Calculating sequence statistics such as total sequences, average length, minimum length, and maximum length
+- Saving the analysis results to a tab-separated values (TSV) file
+- Identifying sequences with minimum and maximum lengths
+- Optional protein domain analysis using InterProScan or Pfam (not implemented)
+- Customizable alignment parameters for protein sequences (not implemented)
+- Comparison of sequences using pairwise alignment (not implemented)
 
 ## Dependencies
-The script requires the following Python libraries:
 
-Biopython(https://biopython.org/)
+The following dependencies are required to run the script:
 
-You can install the dependencies using the following command:
+- Python 3.x
+- Biopython(https://biopython.org/)
+
+Install the dependencies using the following command:
 
 ```shell
 pip install biopython
 ```
+
+
+## Usage
+
+1. Ensure you have Python 3.x installed on your system.
+2. Install the required dependencies using the command mentioned above.
+3. Prepare a FASTA file containing the input sequences.
+4. Update the input_file and output_file variables in the script with the appropriate file paths.
+5. Run the script using the following command:
+
+   ```shell
+   python fasta_parser.py
+
+6. The output will be saved in the specified output file as a TSV format, containing the sequence names, lengths, and sequences themselves.
+7. You can modify the script parameters and alignment settings as needed for your specific analysis by editing the fasta_parser.py file.
 
 ## Contributing
 Contributions to the project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
