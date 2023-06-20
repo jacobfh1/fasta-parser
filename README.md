@@ -17,7 +17,7 @@ This script is designed to perform sequence analysis on FASTA files. It calculat
 The following dependencies are required to run the script:
 
 - Python 3.x
-- Biopython(https://biopython.org/)
+- [Biopython](https://biopython.org/)
 
 Install the dependencies using the following command:
 
