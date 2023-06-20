@@ -12,3 +12,22 @@ This repository contains a Python script for analyzing protein sequences from a 
 
    ```shell
    python sequence_analysis.py
+
+6. The script will generate an output TSV file named output.tsv with the analyzed sequence information.
+7. You can modify the script parameters and alignment settings as needed for your specific analysis by editing the sequence_analysis.py file.
+
+## Dependencies
+The script requires the following Python libraries:
+
+Biopython(https://biopython.org/)
+
+You can install the dependencies using the following command:
+
+   ```shell
+   pip install biopython
+
+## Contributing
+Contributions to the project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
