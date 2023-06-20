@@ -23,8 +23,9 @@ Biopython(https://biopython.org/)
 
 You can install the dependencies using the following command:
 
-   ```shell
-   pip install biopython
+```shell
+pip install biopython
+```
 
 ## Contributing
 Contributions to the project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
