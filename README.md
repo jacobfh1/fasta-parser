@@ -31,7 +31,7 @@ pip install biopython
 1. Ensure you have Python 3.x installed on your system.
 2. Install the required dependencies using the command mentioned above.
 3. Prepare a FASTA file containing the input sequences.
-4. Update the ´input_file´ and ´output_file´ variables in the script with the appropriate file paths.
+4. Update the `input_file` and `output_file` variables in the script with the appropriate file paths.
 5. Run the script using the following command:
 
    ```shell
