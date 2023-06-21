@@ -38,7 +38,7 @@ pip install biopython
    python fasta_parser.py
 
 6. The output will be saved in the specified output file as a TSV format, containing the sequence names, lengths, and sequences themselves.
-7. You can modify the script parameters and alignment settings as needed for your specific analysis by editing the fasta_parser.py file.
+7. You can modify the script parameters and alignment settings as needed for your specific analysis by editing the `fasta_parser.py` file.
 
 ## Contributing
 Contributions to the project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
